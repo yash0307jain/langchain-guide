@@ -1,0 +1,5 @@
+services:
+    chatbot:
+        build: .
+        ports:
+            - "8002:8501"
